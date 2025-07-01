@@ -1,18 +1,4 @@
-const player1 = {
-  NAME: "Mario",
-  SPEED: 4,
-  MANEUVERABILITY: 3,
-  POWER: 3,
-  POINTS:0
-}
-
-const player2 = {
-  NAME: "Bowser",
-  SPEED: 5,
-  MANEUVERABILITY: 2,
-  POWER: 5,
-  POINTS:0
-}
+const {getRandomCharacters} = require('./characters')
 
 function rollDice() {
   return Math.floor(Math.random() *6) +1
@@ -120,6 +106,7 @@ async function declareWinner(character1,character2) {
 }
 
 (async function main() {
+  const [player1, player2] = await getRandomCharacters()
   console.log(`🏁🚨 Race between ${player1.NAME} and ${player2.NAME} is starting...\n`);
 
   await playRaceEngine(player1, player2)
