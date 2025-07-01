@@ -1,0 +1,24 @@
+{
+  "name": "mario-kart-racing-simulator",
+  "version": "1.0.0",
+  "description": "<h1>Desafio de projeto do Felipão: Mario Kart.JS</h1>",
+  "main": "index.js",
+  "directories": {
+    "doc": "docs"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/gabrielssconceicao/Mario-Kart-Racing-Simulator.git"
+  },
+  "keywords": [],
+  "author": "Gabriel Conceição",
+  "license": "ISC",
+  "type": "commonjs",
+  "bugs": {
+    "url": "https://github.com/gabrielssconceicao/Mario-Kart-Racing-Simulator/issues"
+  },
+  "homepage": "https://github.com/gabrielssconceicao/Mario-Kart-Racing-Simulator#readme"
+}
